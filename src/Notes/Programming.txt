@@ -1,0 +1,46 @@
+A computer program - a set of instructions.
+Basic instructions: Input, Process, Output
+
+Variables - to store data
+Algorithm - a sequence of instructions that solves a program
+
+Input:
+import java.util.Scanner;
+A Scanner is a text parser to get input using Scanner object:
+    Scanner scnr = new Scanner(System.in);
+    System.in == keyboard input
+    then scnr(Scanner object) is used to assign value.
+        x = scnr.nextInt();
+
+Output:
+"" - text in double quote is called string literal
+
+Compiler ---> Executable Java Byte code
+
+Errors:
+Syntax errors: violating language's rules on symbols to create program
+Logical error: a bug, an error which occurs while a program runs.
+
+FAQ
+    Bug: word is from a moth which got stuck in Harvard University Mark 2 computer in 1947.
+
+Warnings: A compiler warning syntax: javac -Xlint fileName.java
+
+Processors:
+Memory-->Circuit/Processor--->(Needs instructions)
+Instructions(formed by 0 and 1's series of addressed locations) ---> stored in memory
+Basically, a computer's processor executes program in instructions stored in memory and stores temporary results in memory as well
+
+Early days only machine languages using bits was used--difficult to read and hence, assembly language was created to convert human readable instructions to machine language.
+in 1960-70's high level languages were created to write a formula.
+    Languages including- FORTRAN(Formula translator) or ALGOL(algorithmic language)
+To support HLL, compilers were created, easily converting HLL to executable
+
+Code History
+1978, Brian Kernighan and Dennis Ritchie at AT&T Bell Labs published book describing a new high-level language C.
+C became a dominant language in 1980's and 1990's.
+
+1985, Bjarne Stroustrup published a book describing a C based language: C++. for OOP.
+++ is like one more in programming, so C++ is like one improved version of C.
+in 1991, James Gosling and a team of engineers at Sun Microsystems(acquired by oracle in 2010) began Java, language menat to be portable and executable to different processors, released in 1995.
+    Java had oop and executable on virtual machine.
