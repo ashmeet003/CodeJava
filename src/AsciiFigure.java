@@ -23,6 +23,17 @@ public class AsciiFigure {
                 System.out.print("\\");
             }
             System.out.println();
+
+
+
+
+
+
+
+
+
+
+            
         }
     }
 }
