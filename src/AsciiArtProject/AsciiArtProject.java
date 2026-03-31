@@ -1,3 +1,4 @@
+package AsciiArtProject;
 /*
 * Name: Ashmeet Kaur
 * Student ID: 00889414
